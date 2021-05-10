@@ -176,7 +176,7 @@ section .splide img {
   justify-content: center;
 }
 .text-desc {
-  padding: 16px;
+  padding: 24px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -187,7 +187,7 @@ section .splide img {
 }
 .tab-one {
   border-right: 1px solid rgba(0, 46, 109, 0.25);
-  background:#E7F4FF;
+  background: #e7f4ff;
 }
 .tab-one,
 .tab-two {
@@ -199,7 +199,7 @@ section .splide img {
   text-align: center;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color:#002E6D;
+  color: #002e6d;
   text-align: center;
   display: flex;
   width: 50%;
@@ -207,4 +207,91 @@ section .splide img {
   padding-top: 16px;
   height: 57px;
   border-bottom: 1px solid rgba(0, 46, 109, 0.25);
+}
+.tabs p {
+  width: 150px;
+}
+
+.disclaimer {
+  margin-top: 32px;
+}
+.disclaimer .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+
+  letter-spacing: 0.05em;
+
+  color: #002e6d;
+}
+.disclaimer .text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  letter-spacing: 0.05em;
+}
+.card {
+  position: relative;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background: rgba(0, 46, 109);
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.cards img {
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  width: 100%;
+  opacity: 0.4;
+}
+
+.card .text-img-top {
+    width:100%;
+    margin-top:16px;
+  font-family: 'Bodoni 72';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%);
+  color: white;
+  background: rgba(0, 46, 109);
+}
+.card .text-img-bottom {
+    width:100%;
+
+  font-family: 'Bodoni 72';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left:50%;
+  transform: translate(-50%);
+  color: white;
+  background: rgba(0, 46, 109);
+  margin-bottom:16px;
 }
