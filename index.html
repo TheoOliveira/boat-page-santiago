@@ -11,14 +11,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Yacth Details 
-    </title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link
+    <title>Yacth Details</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
       href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Roboto:wght@300&display=swap"
-      rel="stylesheet">
-<script src="script.js"></script>
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -53,29 +57,177 @@
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-      <img class="divider" src="assets/3-divider.svg" alt="" />
-
-      <img class="img-end-session" src="assets/WhatsApp Image 2021-05-09 at 18.40.09 (3).jpeg" alt="" />
-=======
       <img id="divider" class="divider" src="assets/3-divider.svg" alt="" />
->>>>>>> 0381b0870c91fc3cfc186194d9b31bb5d2cb7015
     </section>
 
-    <section class="slide_container">
-      <ul class="slide_list">
-        <li class="slide">
-          <img src="assets/7592417_20200917110059187_1_XLARGE.png" alt="" />
-        </li>
-        <li class="slide">
-          <img src="assets/7592417_20200917110102179_1_XLARGE.png" alt="" />
-        </li>
-        <li class="slide">
-          <img src="assets/7592417_20200917110104243_1_XLARGE.png" alt="" />
-        </li>
-      </ul>
+    <section class="splide">
+      <div class="splide__arrows">
+        <button class="splide__arrow splide__arrow--prev">
+          <img src="/assets/Arrow left.png" alt="" />
+        </button>
+        <button class="splide__arrow splide__arrow--next">
+          <img src="assets/Arrow right.png" alt="" />
+        </button>
+      </div>
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img src="assets/7592417_20200917110059187_1_XLARGE.png" alt="" />
+          </li>
+          <li class="splide__slide">
+            <img src="assets/7592417_20200917110102179_1_XLARGE.png" alt="" />
+          </li>
+          <li class="splide__slide">
+            <img src="assets/7592417_20200917110104243_1_XLARGE.png" alt="" />
+          </li>
+        </ul>
+      </div>
     </section>
-    <section class="specs"></section>
+    <section class="specs">
+      <div class="content_container">
+        <h1>Specifications</h1>
+        <div class="anchor-diviser">
+          <div class="line"></div>
+          <img src="assets/blue_anchor.svg" alt="" class="img-anchor" />
+          <div class="line"></div>
+        </div>
+        <div class="specs-list">
+          <div class="specs-list-group">
+            <p class="title">Dimensions</p>
+            <div class="spec-item">
+              <p class="description">LOA:</p>
+              <p class="value">164 ft</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Beam:</p>
+              <p class="value">30.5 ft</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Max Draft:</p>
+              <p class="value">5.25 ft</p>
+            </div>
+          </div>
+          <div class="specs-list-group">
+            <p class="title">Speed, Capacities and Weight</p>
+            <div class="spec-item">
+              <p class="description">Cruise Speed:</p>
+              <p class="value">22 kn</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Max Speed:</p>
+              <p class="value">30 kn</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Water Tank Material:</p>
+              <p class="value">-</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Fuel Tank Material:</p>
+              <p class="value">-</p>
+            </div>
+          </div>
+          <div class="specs-list-group">
+            <p class="title">Accommodations</p>
+            <div class="spec-item">
+              <p class="description">Total Cabins:</p>
+              <p class="value">6</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Single Berths:</p>
+              <p class="value">-</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Twin Berths:</p>
+              <p class="value">-</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Double Berths:</p>
+              <p class="value">-</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Total Heads:</p>
+              <p class="value">14</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Crew Berths:</p>
+              <p class="value">6</p>
+            </div>
+          </div>
+          <div class="specs-list-group">
+            <p class="title">Hull and Deck</p>
+            <div class="spec-item">
+              <p class="description">Hull Material:</p>
+              <p class="value">Jon Bannenburg</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Yacht Designer:</p>
+              <p class="value">Jon Bannenburg</p>
+            </div>
+          </div>
+          <div class="specs-list-group">
+            <p class="title">Engine</p>
+            <div class="spec-item">
+              <p class="description">Manufacturer:</p>
+              <p class="value">-</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Model:</p>
+              <p class="value">-</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Engine Count:</p>
+              <p class="value">-</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Fuel Type:</p>
+              <p class="value">-</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Engine Power:</p>
+              <p class="value">-</p>
+            </div>
+            <div class="spec-item">
+              <p class="description">Propulsion Type:</p>
+              <p class="value">-</p>
+            </div>
+          </div>
+          <div class="specs-list-group">
+            <p class="title">Classifications</p>
+          </div>
+        </div>
+        <div class="specs-description">
+          <div class="content_container">
+            <div class="description-box">
+              <div class="tabs">
+                <div class="tab-one">
+                  <p class="tab-title">General Information</p>
+                </div>
+                <div class="tab-two">
+                  <p class="tab-title">Additional Details</p>
+                </div>
+              </div>
+              <div class="text-desc">
+                <p>
+                  Timeless, elegant, stylish and set up for entertaining, SHE’S
+                  A 10 is ready for her next owner to enjoy. Originally designed
+                  by Jon Bannenberg and Phil Curran, this 1989 164’ (49.9m)
+                  Oceanfast offers speed up to 30 knots at light load, agility
+                  and a shallow draft of 5’ 3” which is perfect for the Bahamas
+                  or other international cruising grounds. Sleeping 12 guests in
+                  5 staterooms, the master is on the bridge deck with the 4
+                  guest staterooms below. There is a media room on the main deck
+                  that can also convert into a 6th stateroom with shower and
+                  closet and storage. Previously known as Mystique, SHE’S A 10
+                  has only had 3 owners and shows well. With recent fresh hull
+                  paint, W-6’s on the engines and endless upgrades.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="disclaimer"></div>
+      </div>
+    </section>
     <section class="cards"></section>
   </body>
 </html>

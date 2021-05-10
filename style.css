@@ -8,7 +8,7 @@ body {
   padding: 0;
 }
 
-h1 {
+.boat-name h1 {
   font-family: "Bodoni 72";
   font-style: normal;
   font-weight: bold;
@@ -47,7 +47,7 @@ h1 {
   text-align: left;
   min-width: 150px;
 }
-.anchor-diviser {
+.boat-name .anchor-diviser {
   padding-top: 16px;
   display: flex;
   align-items: center;
@@ -66,7 +66,7 @@ h1 {
   font-weight: bold;
 }
 section.header {
-  height:100vh;
+  height: 100vh;
   padding-top: 47px;
   background-position: center;
   background-size: cover;
@@ -83,16 +83,100 @@ section.header {
   text-align: right;
 }
 .divider {
-  margin-top:36px;
-  position: relative;
+  margin-top: 36px;
+  position: absolute;
   bottom: 0;
   left: 0;
   z-index: 1;
   width: 100%;
-
 }
-.img-end-session {
-  position: absolute;
+li img {
   width: 100%;
-  z-index: 1;
+}
+
+section .splide img {
+  width: 100%;
+  margin: auto;
+}
+
+.splide__arrow {
+  height: 60px;
+  width: 60px;
+  background-color: #fff;
+}
+.specs {
+  margin-top: 32px;
+}
+.specs h1 {
+  font-family: "Bodoni 72";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #002e6d;
+}
+
+.specs .anchor-diviser {
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.specs .anchor-diviser img {
+  color: #002e6d;
+}
+.specs .line {
+  margin-left: 8px;
+  margin-right: 8px;
+  align-self: center;
+  height: 1px;
+  vertical-align: middle;
+  width: 61px;
+  border-bottom: 1px solid #002e6d;
+}
+
+.specs-list-group {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #002e6d;
+}
+.specs-list-group .title {
+  color: #002e6d;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+.specs-list-group .spec-item {
+  display: flex;
+  width:70%;
+  justify-content: space-between;
+  align-content: flex-start;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+.description-box {
+    padding:16px;
+    border: 1px solid rgba(0, 46, 109, 0.25);
+}
+
+.tabs {
+    display:flex;
+}
+.text-desc {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;    
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
 }
